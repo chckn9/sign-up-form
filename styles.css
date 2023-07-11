@@ -1,13 +1,42 @@
 html, body {
-  display: flex;
-  flex-direction: column;
-}
+  margin: 0;
+  padding: 0;
+}  
 
 div {
   background-color: lightgray;
-  margin: 1%;
 }
 
 * {
   font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.hero {
+  width: 30%;
+}
+
+.form {
+  width: 70vh;
+}
+
+.top {
+  background-color: gray;
+  padding: 100px 30px 40px;
+  padding-right: 80px
+}
+
+.middle {
+  background-color: #fff;
+  padding: 20px 30px;
+}
+
+.bottom {
+  background-color: gray;
+  padding: 25px 30px;
 }
