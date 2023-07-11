@@ -3,10 +3,6 @@ html, body {
   padding: 0;
 }  
 
-div {
-  background-color: lightgray;
-}
-
 * {
   font-family: 'Poppins', sans-serif;
 }
@@ -18,15 +14,16 @@ div {
 }
 
 .hero {
-  width: 30%;
+  background-color: green;
+  width: 35%;
 }
 
 .form {
-  width: 70vh;
+  width: 65%;
 }
 
 .top {
-  background-color: gray;
+  background-color: lightgray;
   padding: 100px 30px 40px;
   padding-right: 80px
 }
@@ -37,6 +34,6 @@ div {
 }
 
 .bottom {
-  background-color: gray;
+  background-color: lightgray;
   padding: 25px 30px;
 }
