@@ -12,8 +12,17 @@ h1 {
   font-weight: 700;
 }
 
+input {
+  width: 100%;
+}
+
 :root {
   --main-bg-color: #f0f0f0;
+}
+
+.form {
+  display: flex;
+  
 }
 
 .container {
@@ -22,12 +31,12 @@ h1 {
   width: 100%;
 }
 
-.hero {
+.left-side {
   background-color: green;
   width: 35%;
 }
 
-.form {
+.right-side {
   width: 65%;
 }
 
@@ -38,6 +47,17 @@ h1 {
 
 .sub-text {
   font-weight: 700;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  min-width: 250px;
+}
+
+.col {
+  margin-right: 120px;
 }
 
 .top {
