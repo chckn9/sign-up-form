@@ -22,10 +22,20 @@ html, body {
   width: 65%;
 }
 
+.main-text {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.sub-text {
+  font-weight: 700;
+}
+
 .top {
   background-color: lightgray;
   padding: 100px 30px 40px;
-  padding-right: 80px
+  padding-right: 200px;
+  font-size: 20px;
 }
 
 .middle {
