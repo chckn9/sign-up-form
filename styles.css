@@ -20,7 +20,7 @@ input {
 label {
   font-size: 12px;
   font-weight: 700;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
 }
 
 :root {
@@ -69,17 +69,17 @@ label {
 
 .top {
   background-color: var(--main-bg-color);
-  padding: 100px 30px 40px;
+  padding: 100px 40px 40px;
   padding-right: 200px;
   font-size: 20px;
 }
 
 .middle {
   background-color: #fff;
-  padding: 20px 30px;
+  padding: 20px 40px;
 }
 
 .bottom {
   background-color: var(--main-bg-color);
-  padding: 25px 30px;
+  padding: 25px 40px;
 }
