@@ -7,6 +7,11 @@ html, body {
   font-family: 'Poppins', sans-serif;
 }
 
+legend {
+  font-size: 28px;
+  font-weight: 700;
+}
+
 :root {
   --main-bg-color: #f0f0f0;
 }
