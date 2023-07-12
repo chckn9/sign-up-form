@@ -16,6 +16,12 @@ input {
   width: 100%;
 }
 
+label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+
 :root {
   --main-bg-color: #f0f0f0;
 }
