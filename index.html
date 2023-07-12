@@ -20,9 +20,27 @@
     <div class="middle">
       <form action="example.com/path" method="post">
         <h1>Get started</h1>
-        <div>
-          <label for="first_name">First Name</label>
+        <div class="field">
+          <label for="first_name">FIRST NAME</label>
           <input type="text" id="first_name" name="first_name" required>
+        </div>
+        <div class="field">
+          <label for="last_name">LAST NAME</label>
+          <input type="text" id="last_name" name="last_name" required>
+        </div>
+        <div class="field"> 
+          <label for="user_email">EMAIL</label> <!-- Need to add validation -->
+          <input type="email" id="user_email" name="email" placeholder="e.g. name@gmail.com" required>
+        </div>
+        <div class="field"></div>
+          <label for="phone_number">PHONE NUMBER</label>
+          <input type="tel" id="phone_number" name="phone-number">
+        <div class="field"></div>
+          <label for="password">PASSWORD</label>
+          <input type="password" id="password" name="password" required>
+        <div class="field">
+          <label for="confirm_password">CONFIRM PASSWORD</label>
+          <input type="password" id="confirm_password" name="confirm_password" required>
         </div>
       </form>
     </div>
