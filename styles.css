@@ -60,6 +60,9 @@ img {
 }
 
 .right-side {
+  display: flex;
+  flex-direction: column;
+  min-width: 700px;
   width: 65%;
 }
 
