@@ -40,7 +40,7 @@ a {
 
 img {
   opacity: 0.6;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   object-fit: cover;
 }
@@ -51,8 +51,7 @@ img {
 
 .container {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
+  background-color: var(--main-bg-color);
 }
 
 .left-side {
