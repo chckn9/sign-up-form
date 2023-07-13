@@ -40,11 +40,9 @@ a {
 
 img {
   opacity: 0.6;
-}
-
-.hero-img {
-  width: 100%;
   height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .form {
@@ -59,8 +57,6 @@ img {
 
 .left-side {
   background-color: #596D48;
-  height: 100vh;
-  width: 35%;
 }
 
 .right-side {
