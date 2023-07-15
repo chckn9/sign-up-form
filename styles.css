@@ -2,6 +2,11 @@
   --main-bg-color: #f0f0f0;
 }
 
+:focus {
+  box-shadow: 3px 3px 3px lightgray;
+  border-color: rgb(56, 56, 255);
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -91,7 +96,7 @@ img {
 .middle {
   background-color: #fff;
   padding: 20px 40px;
-  box-shadow: 0px 5px 2px lightgray;
+  box-shadow: 0px 5px 7px lightgray;
 }
 
 .bottom {
