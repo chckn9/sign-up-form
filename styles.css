@@ -47,6 +47,7 @@ img {
 
 .form {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .container {
@@ -77,12 +78,9 @@ img {
 .field {
   display: flex;
   flex-direction: column;
+  margin-right: 120px;
   margin-bottom: 20px;
   min-width: 250px;
-}
-
-.col {
-  margin-right: 120px;
 }
 
 .top {
