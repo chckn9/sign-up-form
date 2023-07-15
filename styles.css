@@ -50,12 +50,13 @@ a {
   object-fit: cover;
 }
 
-.left-side div {
-  width: 100%;
-  border-color: #333333;
-  border: red;
+.left-side p {
   position: absolute;
-  top: 50px;
+  bottom: 0px;
+  right: 10px;
+  color: #f0f0f0;
+  opacity: 50%;
+  font-style: italic;
 }
 
 .form {
@@ -70,6 +71,7 @@ a {
 
 .left-side {
   background-color: #596D48;
+  position: relative;
 }
 
 .right-side {
